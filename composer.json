@@ -1,0 +1,15 @@
+{
+    "name": "ivita/api_universities",
+    "autoload": {
+        "psr-4": {
+            "Ivita\\ApiUniversities\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivita Bite",
+            "email": "ivita.bite@gmail.com"
+        }
+    ],
+    "require": {}
+}
