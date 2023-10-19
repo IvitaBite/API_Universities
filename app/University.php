@@ -12,7 +12,8 @@ class University
     public function __construct(
         string $name,
         string $country,
-        array $webPages)
+        array  $webPages
+    )
     {
         $this->name = $name;
         $this->country = $country;
@@ -33,20 +34,4 @@ class University
     {
         return $this->webPages;
     }
-
-/*    public function setName(string $name)
-    {
-        $this->name = $name;
-    }
-
-    public function setCountry(string $country)
-    {
-        $this->country = $country;
-    }
-
-    public function setWebPage(array $webPage)
-    {
-        $this->webPage = $webPage;
-    }*/
-
 }

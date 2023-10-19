@@ -8,11 +8,9 @@ class UniversityCollection
 
     public function __construct(array $universities = [])
     {
-        /*foreach ($universities as $university)
-        {
+        foreach ($universities as $university) {
             $this->add($university);
-        }*/
-        $this->universities = $universities;
+        }
     }
 
     public function getUniversities(): array
@@ -22,7 +20,6 @@ class UniversityCollection
 
     public function add(University $university)
     {
-        $this->universities[] = $university;
+        $this->universities [] = $university;
     }
-
 }
