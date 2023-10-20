@@ -44,7 +44,7 @@ class UniversityAPI
             return null;
         }
 
-        $universityCollection = new UniversityCollection;
+        $universityCollection = new UniversityCollection();
 
         foreach ($data as $universityData) {
             $university = new University(
